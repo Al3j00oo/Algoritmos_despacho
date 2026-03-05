@@ -1,11 +1,6 @@
 """
 Simulador de Algoritmos de Despacho — Sistemas Operativos
 Algoritmos: FIFO · SJF · Prioridad · Round Robin
-
-Integración:
-    import scheduling
-    app = rx.App(theme=rx.theme(appearance="dark"))
-    app.add_page(scheduling.index, route="/", title="Scheduler — SO")
 """
 
 import reflex as rx
@@ -835,7 +830,7 @@ def index() -> rx.Component:
                         "justify_content": "center",
                     }),
                     rx.text(
-                        "Simulador de Algoritmos de Despacho - Sistemas Operativos",
+                        "Simulador de Algoritmos de Despacho - Alejandro Oquendo Bedoya",
                         style={
                             "color": "#7777AA",
                             "font_family": "'JetBrains Mono', monospace",
@@ -867,4 +862,4 @@ def index() -> rx.Component:
 
 # ─── App ─────────────────────────────────────────────────────────────────────
 app = rx.App(theme=rx.theme(appearance="dark"))
-app.add_page(index, route="/", title="Scheduler - SO")
+app.add_page(index, route="/", title="Algoritmos Despacho")
