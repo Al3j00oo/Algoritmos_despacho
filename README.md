@@ -40,7 +40,7 @@ Permite simular y comparar los principales algoritmos de despacho de procesos. E
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/Al3j0Ooo/Algoritmos_despacho.git
+git clone https://github.com/Al3j00oo/Algoritmos_despacho.git
 cd Algoritmos_despacho
 
 # Crear entorno virtual e instalar dependencias
